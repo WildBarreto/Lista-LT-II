@@ -1,7 +1,17 @@
 
 package Questão9;
 
-
-public class Documentos {
+abstract class Documento {
     
+    String titulo;
+
+    Documento(String titulo) {
+        
+        this.titulo = titulo;
+    }
+
+    abstract void abrir();
 }
+    
+    
+
