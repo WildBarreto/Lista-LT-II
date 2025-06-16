@@ -32,7 +32,7 @@ public class ContaBancaria {
     
     public void mostrarDados(){
         
-        System.out.print("\n\n***Dados do usuario***");
+        System.out.print("\n\n**Dados do usuario**");
         System.out.print("\nNumero da conta: "+numero+"\nTitular: "+titular+"\nSaldo: "+saldo+"\n");
     
     }
